@@ -1,4 +1,3 @@
-####################################################################
 SV scripts
 By Lei Gao (lg397@cornell.edu or leigao@wbgcas.cn)
 Fei lab (http://bioinfo.bti.cornell.edu/)
