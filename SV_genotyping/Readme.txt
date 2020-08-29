@@ -33,8 +33,8 @@ Command:
 
 python SV_genotyping.py $INPUT $sample $Reference $Query $Ref_bam $Qry_bam $Mismath
 
-Outputs:
-    Sample_name.GT.txt        # SV genotyping result
+Output:
+    $sample.GT.txt        # SV genotyping result
 
 	  
 
