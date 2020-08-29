@@ -1,5 +1,5 @@
 ####################################################################
-SV calling scripts
+SV genotyping scripts
 By Lei Gao (lg397@cornell.edu; leigao@wbgcas.cn)
 Fei lab (http://bioinfo.bti.cornell.edu/)
 Version 1.1
