@@ -20,7 +20,7 @@ The resequencing reads should be aligned to Reference and Query genomes, respect
 To run this pipeline, we assume you already have the read alignments files, i.e. two sorted bam files for one sample.
 
 Parameters:
-INPUT=Example_SV.tsv          # Path to your input SV file. A example of input SV file is provided.
+INPUT=Example/Example_SV.tsv  # Path to your input SV file. A example of input SV file is provided.
 sample=Sample_name            # Sample name, prefix of outputs
 Reference=Reference_genome    # Path to Reference genome, fasta format, indexed by samtools faidx
 Query=Query_genome            # Path to Query genome , fasta format, indexed by samtools faidx
@@ -30,11 +30,11 @@ Mismath=3                     # Allowed mismath percentage of aligned read
 
 
 Command:
+   python SV_genotyping.py $INPUT $sample $Reference $Query $Ref_bam $Qry_bam $Mismath
 
-python SV_genotyping.py $INPUT $sample $Reference $Query $Ref_bam $Qry_bam $Mismath
+To run the command using the exampe data:
+   python SV_genotyping.py Example/Example_input.tsv Example Example/Reference.fasta Example/Query.fasta Example/Sample.Ref_base.bam Example/Sample.Qry_base.bam 3
 
-Output:
-    $sample.GT.txt        # SV genotyping result
-
-	  
+Output for this example run would be produced in the current path and named as Example.GT.txt. 
+A example of the outfile is provided: Example/Example.GT.txt
 
