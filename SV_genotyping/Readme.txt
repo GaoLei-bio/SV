@@ -13,6 +13,10 @@ For SV detection, please refer our SV_calling pipeline (https://github.com/GaoLe
 Dependencies:
    1. samtools (v1.5 or higher, http://www.htslib.org/)
    2. Python 2.7
+      ⚬ sys
+      ⚬ re
+      ⚬ subprocess
+      ⚬ operator
 
 ####################################################################
 How to run:
