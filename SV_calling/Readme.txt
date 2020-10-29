@@ -94,6 +94,13 @@ Dependencies:
    4. samtools (v1.5 or higher, http://www.htslib.org/)
    5. blast+ 
    6. Python 2.7
+      ⚬ operator
+      ⚬ pathlib
+      ⚬ argparse
+      ⚬ os
+      ⚬ re
+      ⚬ subprocess
+      ⚬ sys
 
 ####################################################################
 Genome file format requirement:
