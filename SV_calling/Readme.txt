@@ -68,9 +68,11 @@ Step 4:
            <Qry_base_pbsv_vcf>
 
   Inputs:
-     Prefix_for_outputs.NR.bed      Result of SV_calling.sh
-     Reference_genome_file          Fasta format
-     Query_genome_file              Fasta format
+     Prefix_for_outputs.my_anchor.variants_within_alignments.bed      Result of SV_calling.sh
+     Prefix_for_outputs.coords.tab                                    Result of SV_calling.sh
+     Prefix_for_outputs.NR.bed                                        Result of SV_calling.sh
+     Reference_genome_file                                            Fasta format
+     Query_genome_file                                                Fasta format
      Ref_base_pbsv_vcf              vcf file. SV calling based on Query PacBio read alignments to Reference genome by pbsv (https://github.com/PacificBiosciences/pbsv)
      Qry_base_pbsv_vcf              vcf file. SV calling based on Reference PacBio read alignments to Query genome by pbsv (https://github.com/PacificBiosciences/pbsv)
  
